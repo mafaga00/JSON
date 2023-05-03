@@ -11,7 +11,7 @@ git clone HTTPS link
 ***
  6. Внутри локального JSON создать файл “new.json”.
 ***
-> new.json |OR| touch new.json
+ > new.json |OR| touch new.json
 ***
  7. Добавить файл под гит.
 ***
