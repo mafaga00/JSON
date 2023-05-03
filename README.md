@@ -7,7 +7,7 @@ Repositories -> New -> Repos Name:JSON -> Check "Add a README file" -> Press "Cr
 ***
  5. Клонировать репозиторий JSON на локальный компьютер.
 ***
-git clone <HTTPS link>
+git clone HTTPS link
 ***
  6. Внутри локального JSON создать файл “new.json”.
 ***
