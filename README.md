@@ -11,7 +11,7 @@ git clone HTTPS link
 ***
  6. Внутри локального JSON создать файл “new.json”.
 ***
- > new.json |OR| touch new.json
+- > new.json |OR| touch new.json
 ***
  7. Добавить файл под гит.
 ***
@@ -43,7 +43,7 @@ git commit -am "add personal information" -> git push
 ***
  12. Создать файл preferences.json
 ***
-> preferences.json |OR| touch preferences.json
+- > preferences.json |OR| touch preferences.json
 ***
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
 ***
