@@ -3,53 +3,56 @@
 JSON
  4. Создать внешний репозиторий c названием JSON.
 ***
-Repositories -> New -> Repos Name:JSON -> Check "Add a README file" -> Press "Create repository"
+`Repositories -> New -> Repos Name:JSON -> Check "Add a README file" -> Press "Create repository"`
 ***
  5. Клонировать репозиторий JSON на локальный компьютер.
 ***
-git clone HTTPS link
+`git clone HTTPS link`
 ***
  6. Внутри локального JSON создать файл “new.json”.
 ***
-touch new.json
+`touch new.json`
 ***
  7. Добавить файл под гит.
 ***
-git add new.json
+`git add new.json`
 ***
  8. Закоммитить файл.
 ***
-git commit -m "My first file json"
+`git commit -m "My first file json"`
 ***
  9. Отправить файл на внешний GitHub репозиторий.
 ***
-git push
+`git push`
 ***
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
 ***
-vim new.json -> INSERT -> esc -> :wq
+`vim new.json -> INSERT -> esc -> :wq`
 
 Содержание добавленной информации:
+```
 {
  "FIO": "Ovsyannikov Nikita Dmitrievich",
  "age": 22,
  "number of pets": "0",
  "Future desired salary": "500"
 }
+```
 ***
  11. Отправить изменения на внешний репозиторий.
 ***
-git commit -am "add personal information" -> git push
+`git commit -am "add personal information" -> git push`
 ***
  12. Создать файл preferences.json
 ***
-touch preferences.json
+`touch preferences.json`
 ***
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
 ***
-vim preferences.json -> INSERT -> esc -> :wq
+`vim preferences.json -> INSERT -> esc -> :wq`
 
 Содержание добавленной информации:
+```
 {
  "Favorite movie": "There will be blood",
  "Favorite series": "Breaking bad",
@@ -57,12 +60,14 @@ vim preferences.json -> INSERT -> esc -> :wq
  "favorite time of year": "Winter",
  "country you'd like to visit": "China"
 }
+```
 ***
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 ***
-cat > sklls.json -> ^C
+`cat > sklls.json -> ^C`
 
 Содержание добавленной информации:
+```
 {
     "Базовая теория": "Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования, SDLC, STLC.",
     "клиент-сервер": "клиент-серверная архитектура",
@@ -92,24 +97,26 @@ cat > sklls.json -> ^C
     "Методология разработки": "Scrum",
     "Python": "Изучение основ. Создание клиент серверного приложения"
 }
+```
 ***
  15. Отправить сразу 2 файла на внешний репозиторий.
 ***
-git add . && git commit -m "add 2 files" && git push
+`git add . && git commit -m "add 2 files" && git push`
 ***
  16. На веб интерфейсе создать файл bug_report.json.
 ***
-Add file --> Create new file --> Name: bug_report.json
+`Add file --> Create new file --> Name: bug_report.json`
 ***
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 ***
-Commit New File
+`Commit New File`
 ***
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 ***
-Choose bug_report.json --> Edit this file
+`Choose bug_report.json --> Edit this file`
 
 Содержание добавленной информации:
+```
 {
 	"ID": 1,
         "Version": "Windows 10",
@@ -122,12 +129,13 @@ Choose bug_report.json --> Edit this file
 	"Priority": "Low",
         "Attachments": "Скриншот"
 }
+```
 ***
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 ***
-Commit changes
+`Commit changes`
 ***
  20. Синхронизировать внешний и локальный репозиторий JSON
 ***
-git pull
+`git pull`
 ***
